@@ -1,0 +1,399 @@
+.wakaHead {
+	background-color: #fff;
+	margin-bottom: 0px;
+}
+.wakaLogo {
+	margin-top: -13px;
+}
+.wakaLogo img {
+	 width: 15%;    
+}
+.navtxt {
+	font-weight: 600;
+	margin-top: -30px;
+}
+header a {
+	color: black;	
+}
+.act a {
+	background-color: rgba(3, 169, 244, 0.54);
+	color: #555;
+}
+.freeLi {
+	margin-left: -10px;
+	margin-top: -20px;
+}
+
+.in li {
+	padding-top: 5px;
+}
+.fullWidth {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+.pickform li {
+    background-color: rgba(255, 255, 255, 0.82);
+    margin-bottom: 0px;
+    border-radius: 0px 4px 0 0;
+}
+.pickform li a {
+	margin-right: 0px;
+	color: red;
+}
+.pickform li.active a, .pickform li.active a:focus, .pickform li.active a:hover {
+	color: #fff;
+    cursor: default;
+    background-color: rgba(0, 0, 0, 0.86);
+    border: none;
+    border-bottom: 2px solid transparent;
+    border-radius: 0px;
+}
+.airsearch {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+/* enable absolute positioning */
+.inner-addon {
+  position: relative;
+}
+
+/* style glyph */
+.inner-addon .glyphicon {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+}
+
+/* align glyph */
+.right-addon .glyphicon { right: 0px;
+}
+
+/* add padding  */
+.right-addon input { padding-right: 30px; 
+}
+
+.subBut button {
+	background-color: red;
+	margin-bottom: 30px;
+    border-color: red;
+}
+.row1 {
+	padding-bottom: 50px;
+}
+.modcont {
+	padding-left: 100px;
+    padding-right: 100px;
+}
+.modcont h5 {
+	margin-left: 15px;
+}
+.bookPad {
+	padding-right: 40px;
+	padding-left: 40px;
+}
+.tAndC {
+	border: 1px solid #ccc;
+    padding: 15px;
+    margin: 15px;
+}
+.noBorder {
+	border: none;
+}
+.modalBackground {
+	background: transparent;
+    box-shadow: none;
+    border: none;
+}
+.req {
+	min-height: 300px;
+	background-image: url(../images/austin-skyline.jpg);
+	background-color: #fff;
+	padding-top: 35px;
+}
+.tabpad {
+	padding: 20px;
+}
+.tabcol {
+	background-color: rgba(0, 0, 0, 0.66);
+    border-radius: 0px 5px 5px 5px;
+    width: 90%;
+    margin-bottom: 30px;
+}
+.tabBorder {
+	border: 1px solid rgba(204, 204, 204, 0.32);
+}
+.carSlide {
+	padding-top: 60px;
+}
+.carSlide img {
+	width: 100%;
+	height: 100%;	
+}
+.midSec {
+	padding-top: 35px;
+}
+.adSection {
+	text-align: center;
+}
+.secondad {
+	margin-top: 60px;
+}
+.benefitImg {
+	text-align: center;
+	min-height: 200px;
+	padding-top: 80px;
+}
+.benefitImg img {
+	width: 100%;
+	height: 100%;
+}
+.benefitTable {
+	padding-left: 40px;
+	padding-top: 15px;
+}
+.transcolor {
+	color: transparent;
+}
+
+.centxt {
+	text-align: center;
+}
+.theadHid {
+	visibility: hidden;
+}
+.noDisplay {
+	display: none;
+}
+.neverDisplay {
+	display: none !important;
+}
+.lastsec {
+	min-height: 300px;
+	margin-top: 20px;
+}
+.lastsec>ul>li {
+	border: 1px solid #ccc;    
+}
+.lastsec>ul>li>a {
+	padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 0px;
+    color: black;
+}
+.lastsec > .nav-pills > li.active > a {
+	background-color: #9e9e9e;
+}
+
+.contentBorder {
+	border: 1px solid #ccc;
+}
+.availCars h5 {
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-bottom: 10px;
+}
+.imgCars {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.imgCars label {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.homeTab {
+	margin-top: 20px;
+}
+.note {
+	padding-left: 20px;
+}
+.colRed {
+	color: red;
+}
+.colGreen {
+	color: green;
+}
+.colWhite {
+	color: white;
+}
+.dubaiList ul li {
+	display: inline-block;
+}
+.dubaiListTxt {
+	margin-left: -40px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.dubaiList img {
+	margin-top: -75px;
+    margin-left: 35px;
+}
+.dubaiBorder {
+	border-width: 1px 1px 0px 1px;
+    border-style: solid;
+    border-color: rgba(204, 204, 204, 0.32);
+}
+.pickTxt {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.pickHd {
+	margin-left: -14px;
+}
+.pickNote {
+	margin-left: 40px;
+}
+.preFoot {
+	min-height: 50px;
+	padding-bottom: 20px;
+}
+.mailLabel {
+	padding-left: 20px;
+}
+.mail {
+	padding-top: 35px;
+}
+.mail button {
+	color: white;
+    background-color: #FF9800;    
+}
+.prefootBorder {
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+footer {
+	min-height: 100px;
+	background-color: #03A9F4;
+}
+.grayBack {
+	background-color: rgba(204, 204, 204, 0.32);
+}
+.bookTxt {
+	padding-top: 20px;
+    padding-bottom: 0px;
+}
+.bookTxt span {
+	font-weight: bolder;
+}
+.col2 {
+	top: -5px;
+}
+.bookTxt button {
+	padding-left: 20px;
+    padding-right: 20px;
+}
+.warnTxt {
+	padding-top: 10px;
+}
+.cartypeHd {
+	border-bottom: 1px solid rgba(204, 204, 204, 0.58);
+}
+.carTypeCheck {
+	padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.route {
+	margin-top: 35px;
+}
+.routeMap iframe {
+	width: 100%;
+    height: 100%;
+}
+.luxurySelect img {
+	width: 100%;
+}
+.colRight h3 {
+	margin-top: 10px;
+}
+.colRight {
+	text-align: right;
+}
+.luxurySelect {
+	margin-bottom: 30px;
+}
+.luxurySelect .col-sm-6 {
+	right: -45px;
+}
+.passengerBadge {
+	margin-top: 10px;
+    margin-bottom: 10px;
+}
+.badgePad {
+	padding: 5px 10px;
+	border-radius: 3px;
+}
+.zeroRpad {
+	padding-right: 0px;
+}
+.zeroLpad {
+	padding-left: 0px
+}
+.luxuryShadow {
+	box-shadow: 0px 0px 1px 0px #9E9E9E;
+}
+.newHd {
+	background-color: rgb(235, 235, 235);
+	margin-bottom: 0px;
+	padding-bottom: 15px;
+	padding-top: 10px;
+	padding-left: 15px;
+}
+ .mine {
+  	border: 1px solid rgba(204, 204, 204, 0.39);
+  	border-radius: 4px;
+  	background-color: rgba(204, 204, 204, 0.39);
+}
+.tabs-left > .nav-tabs > li {
+  	float: none;
+  	margin-bottom: 0px;
+}
+.tabs-left > .nav-tabs > li > a {
+  	min-width: 211px;  
+  	margin-bottom: 0px;
+  	margin-right: 0px; 
+  	background-color: rgb(235, 235, 235);
+  	color: black;
+  	min-height: 80px;
+}
+.tabs-left > .nav-tabs {
+  	float: left;
+  	margin-right: 19px; 
+}
+.tabs-left > .nav-tabs > li > a:hover,
+.tabs-left > .nav-tabs > li > a:focus {
+  	border-color: #757575;
+}
+.paymentBack {
+	background-color: #fff;
+	min-height: 240px;
+}
+.tabs-left > .nav-tabs .active > a,
+.tabs-left > .nav-tabs .active > a:hover,
+.tabs-left > .nav-tabs .active > a:focus {
+  	border-color: #757575;
+  	background-color: #757575;
+  	border-right-color: rgb(235, 235, 235);
+  	color: #fff; 
+}
+.paymentPad {
+	padding-top: 35px;
+}
+
+.paymentImage img {
+	width: 270px;
+}
+.paymentPrice {
+	margin-top: 140px;
+    padding-right: 25px;
+}
+.transact img {
+	width: 100%;
+	height: 100%
+}
+.transact {
+	margin-top: 150px;
+    margin-bottom: 150px;
+}
+.

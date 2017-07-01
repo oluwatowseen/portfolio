@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>wakanow.com</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/custom.css" >
+
+    <script src="js/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/myscript.js"></script>
+</head>
+<body>
+    <header>
+        <div class="navbar navbar-default wakaHead">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#wakaNav" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                   
+                    <a class="navbar-brand wakaLogo" href="#"><img src="images/wakanow-logo.png" alt="wakanow logo" /></a>
+                     <div class="navbar-text navbar-right navtxt">
+                        <p> Call to Book <span class="glyphicon glyphicon-earphone"></span> 012773010, 07009252669 </p>                        
+                    </div>
+                </div>
+                <div class="collapse navbar-collapse" id="wakaNav">
+                    <div class="sideNav">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="dropdown freeLi">
+                                <a href="#" class="dropdown-toggle acct" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Account <span class="glyphicon glyphicon-chevron-down"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">Action</a></li>
+                                        <li><a href="#">Another action</a></li>
+                                        <li><a href="#">Something else here</a></li>
+                                        <li role="separator" class="divider"></li>
+                                        <li><a href="#">Separated link</a></li>
+                                    </ul>
+                            </li>
+                            <li class="dropdown freeLi">
+                                <a href="#" class="dropdown-toggle acct" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">USD <span class="glyphicon glyphicon-chevron-down"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">Action</a></li>
+                                        <li><a href="#">Another action</a></li>
+                                        <li><a href="#">Something else here</a></li>
+                                        <li role="separator" class="divider"></li>
+                                        <li><a href="#">Separated link</a></li>
+                                    </ul>
+                            </li>
+                            <li class="dropdown freeLi">
+                                <a href="#" class="dropdown-toggle acct" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Nigeria <span class="glyphicon glyphicon-chevron-down"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">Action</a></li>
+                                        <li><a href="#">Another action</a></li>
+                                        <li><a href="#">Something else here</a></li>
+                                        <li role="separator" class="divider"></li>
+                                        <li><a href="#">Separated link</a></li>
+                                    </ul>
+                            </li>
+                            <li class="dropdown freeLi">
+                                <a href="#" class="dropdown-toggle acct" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Support <span class="glyphicon glyphicon-chevron-down"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">Action</a></li>
+                                        <li><a href="#">Another action</a></li>
+                                        <li><a href="#">Something else here</a></li>
+                                        <li role="separator" class="divider"></li>
+                                        <li><a href="#">Separated link</a></li>
+                                    </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="mainNav">
+                        <ul class="nav navbar-nav">
+                            <li class="act freeLi"><a href="#">Home</a></li>
+                            <li class="freeLi"><a href="#">Pay Small Small</a></li>
+                            <li class="freeLi"><a href="#">Flights</a></li>
+                            <li class="freeLi"><a href="#">Hotels</a></li>
+                            <li class="freeLi"><a href="#">Destinations Africa</a></li>
+                            <li class="freeLi"><a href="#">Vacation Packages</a></li>
+                            <li class="dropdown freeLi">
+                                <a href="#" class="dropdown-toggle acct" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Visas <span class="glyphicon glyphicon-chevron-down"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">Action</a></li>
+                                        <li><a href="#">Another action</a></li>
+                                        <li><a href="#">Something else here</a></li>
+                                        <li role="separator" class="divider"></li>
+                                        <li><a href="#">Separated link</a></li>
+                                    </ul>
+                            </li>
+                            <li class="freeLi"><a href="#">Attractions</a></li>
+                            <li class="freeLi"><a href="#">Cards</a></li>
+                            <li class="freeLi"><a href="#">Travel Sim Card</a></li>
+                            <li class="freeLi"><a href="#">Bus</a></li>
+                            <li class="freeLi"><a href="#">Rewards</a></li>
+                        </ul>
+                    </div>
+                </div><!-- close navbar collapse-->
+            </div><!-- close container-->
+            
+        </div><!-- close navbar-->
+    </header>
+    <content>
+        <div class="container-fluid fullWidth">
+            <div class="req">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-9">
+                            <div class="pickform">         
+                                <ul class="nav nav-tabs noBorder">
+                                    <li role="presentation" class="active"><a data-toggle="tab" href="#portPick"><b>Airport Pickup</b></a></li>
+                                    <li role="presentation"><a data-toggle="modal" data-target="#myModal" href="#"><b>Request Car Rental</b></a></li>
+                                </ul>
+                                <div class="tab-content tabcol">
+                                    <div id="portPick" class="tab-pane fade in active">
+                                        <form class="tabpad colWhite">
+                                            <label class="radio-inline">
+                                                <input type="radio" name="optradio" value="oneway" checked>One Way
+                                            </label>
+                                            <label class="radio-inline">
+                                                <input type="radio" name="optradio" value="roundtrip">Round Trip
+                                            </label>
+                                        </form>
+                                        <div class="airsearch">
+                                            <div class="row">                                                                                           
+                                                <div class="form-group col-xs-6">
+                                                    <div class="inner-addon right-addon">
+                                                        <i class="glyphicon glyphicon-search"></i>
+                                                        <input type="text" class="form-control" placeholder="From Airport, hotel, Address" />
+                                                    </div>
+                                                </div>
+                                                <div class="form-group col-xs-6">
+                                                    <div class="inner-addon right-addon">
+                                                        <i class="glyphicon glyphicon-search"></i>
+                                                        <input type="text" class="form-control" placeholder="To" />
+                                                    </div>
+                                                </div>                                           
+                                            </div>
+                                            <div class="row radioclass" id="oneway">
+                                                <div class="col-sm-3">
+                                                    <div class="form-group">
+                                                        <input type="text" class="form-control" placeholder="Pick Date">
+                                                    </div>                                                    
+                                                </div>
+                                                
+                                                <div class="col-sm-3">
+                                                    <div class="form-group">
+                                                        <input type="text" class="form-control" placeholder="Passenger">
+                                                    </div>                                                    
+                                                </div>
+                                            </div>
+                                            <div class="row radioclass noDisplay" id="roundtrip">
+                                                <div class="col-sm-3">
+                                                    <div class="form-group">
+                                                        <input type="text" class="form-control" placeholder="Departing">
+                                                    </div>                                                    
+                                                </div>
+                                                <div class="col-sm-3">
+                                                    <div class="form-group">
+                                                        <input type="text" class="form-control" placeholder="Returning">
+                                                    </div>                                                    
+                                                </div>
+                                                <div class="col-sm-3">
+                                                    <div class="form-group">
+                                                        <input type="text" class="form-control" placeholder="Passenger">
+                                                    </div>                                                    
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="subBut col-xs-2">
+                                                    <a href="request/request.html"><button type="submit" class="btn btn-danger"> <span class="glyphicon glyphicon-search"></span> Submit</button></a>
+                                                </div>
+                                            </div>
+                                        </div>                                    
+                                    </div>
+                                </div> 
+                            </div>
+                        </div>
+                            <div class="modalSec">
+                                <div class="modal fade" id="myModal" role="dialog">
+                                    <div class="modal-dialog modal-lg">
+                                        <div class="modal-content">
+                                            <div class="modal-header noBorder">
+                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                            </div>
+                                            <div class="modal-body row modcont">
+                                                <h5><b>Passenger Details</b></h5>
+                                                <div class="row1">
+                                                    <div class="col-sm-6">
+                                                        <input type="text" class="form-control" placeholder="First Name">
+                                                    </div>
+                                                    <div class="col-sm-6">
+                                                        <input type="text" class="form-control" placeholder="Last Name">
+                                                    </div>
+                                                </div>
+                                                <div class="row1">
+                                                    <div class="col-sm-6">
+                                                        <input type="text" class="form-control" placeholder="Phone Number">
+                                                    </div>
+                                                    <div class="col-sm-6">
+                                                        <input type="text" class="form-control" placeholder="Email Address">
+                                                    </div>
+                                                </div>
+                                                <h5><b>Flight information</b></h5>
+                                                <h5><b>Outward</b></h5>
+                                                <div class="row1">
+                                                    <div class="col-sm-4">
+                                                        <input type="text" class="form-control" placeholder="Pickup Time">
+                                                    </div>
+                                                    <div class="col-sm-4">
+                                                        <input type="text" class="form-control" placeholder="Airline">
+                                                    </div>
+                                                    <div class="col-sm-4">
+                                                        <input type="text" class="form-control" placeholder="Flight Number">
+                                                    </div>
+                                                </div> 
+                                                <h5><b>Return</b></h5>
+                                                <div class="row1">
+                                                    <div class="col-sm-4">
+                                                        <input type="text" class="form-control" placeholder="Pickup Time">
+                                                    </div>
+                                                    <div class="col-sm-4">
+                                                        <input type="text" class="form-control" placeholder="Airline">
+                                                    </div>
+                                                    <div class="col-sm-4">
+                                                        <input type="text" class="form-control" placeholder="Flight Number">
+                                                    </div>
+                                                </div>
+                                                <h5 class="colRed"><b>TERMS &AMP; CONDITIONS</b></h5>
+                                                    <div class="tAndC">
+                                                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                                    </div>
+                                                <div class="checkbox centxt">
+                                                    <label><input type="checkbox" name="remember"> I have read and accepted the terms and conditions</label>
+                                                </div>       
+                                            </div>
+                                            <div class="modal-footer centxt noBorder">
+                                                <button type="button" class="btn btn-warning" data-dismiss="modal" data-toggle="modal" data-target="#modal2"> REQUEST CAR</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal fade" id="modal2" role="dialog">
+                                    <div class="modal-dialog modal-lg">    
+                                      <!-- Modal content-->
+                                        <div class="modal-content modalBackground">
+                                            <div class="modal-header noBorder">
+                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="modalImage centxt">
+                                                    <img src="images/Group 283.png">
+                                                </div>          
+                                            </div>        
+                                        </div>      
+                                    </div>
+                                </div>
+                            </div>            
+                        <div class="col-md-3 hidden-xs hidden-sm hidden-md">
+                            <div class="carSlide">
+                                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                                 <!-- Wrapper for slides -->
+                                    <div class="carousel-inner" role="listbox">
+                                        <div class="item active">
+                                            <img src="images/redo-5.png"/>
+                                        </div>
+
+                                        <div class="item">
+                                            <img src="images/redo-1.png"/>
+                                        </div>
+                                
+                                        <div class="item">
+                                            <img src="images/redo-2.png" />
+                                        </div>
+
+                                        <div class="item">
+                                            <img src="images/redo-3.png"/>
+                                        </div>
+
+                                        <div class="item">
+                                            <img src="images/redo-4.png"/>
+                                        </div>
+                                    </div>
+                                </div>                                    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="midSec homeTab">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-9">
+                        <div class="benefit">
+                            <div class="row">
+                                <div class="col-md-5">
+                                    <div class="benefitImg">
+                                        <img src="images/Transfer benefits.png">
+                                    </div>
+                                </div>
+                                <div class="col-md-7">
+                                    <div class="benefitTable">
+                                        <table class="table table-bordered table-condensed">
+                                            <thead>
+                                              <tr>
+                                                <th class="theadHid">Firstname</th>
+                                                <th class="centxt transcolor">brain</th>
+                                                <th class="centxt transcolor">brain </th>
+                                              </tr>
+                                            </thead>
+                                            <tbody>
+                                              <tr>
+                                                <td>1. Reliable &amp; Unbranded Vehicles</td>
+                                                <td class="centxt colGreen">&#10004;</td>
+                                                <td class="centxt colRed">&#10008;</td>
+                                              </tr>
+                                              <tr>
+                                                <td>2. Up to 1 hour waiting time</td>
+                                                <td class="centxt colGreen">&#10004;</td>
+                                                <td class="centxt colRed">&#10008;</td>
+                                              </tr>
+                                              <tr>
+                                                <td>3. Professional Drivers</td>
+                                                <td class="centxt colGreen">&#10004;</td>
+                                                <td class="centxt colRed">&#10008;</td>
+                                              </tr>
+                                              <tr>
+                                                <td>4. Safe &amp; Secured Transit</td>
+                                                <td class="centxt colGreen">&#10004;</td>
+                                                <td class="centxt colRed">&#10008;</td>
+                                              </tr>
+                                              <tr>
+                                                <td>5. Hassle free Pre-booked Service</td>
+                                                <td class="centxt colGreen">&#10004;</td>
+                                                <td class="centxt colRed">&#10008;</td>
+                                              </tr>
+                                              <tr>
+                                                <td>6. Airport Meet &amp; Greet</td>
+                                                <td class="centxt colGreen">&#10004;</td>
+                                                <td class="centxt colRed">&#10008;</td>
+                                              </tr>
+                                              <tr>
+                                                <td>7. All Inclusive Rate</td>
+                                                <td class="centxt colGreen">&#10004;</td>
+                                                <td class="centxt colRed">&#10008;</td>
+                                              </tr>
+                                              <tr>
+                                                <td>8. Flight Tracking </td>
+                                                <td class="centxt colGreen">&#10004;</td>
+                                                <td class="centxt colRed">&#10008;</td>
+                                              </tr>
+                                              <tr>
+                                                <td>9. Air Connditioned Vehicles</td>
+                                                <td class="centxt colGreen">&#10004;</td>
+                                                <td class="centxt colRed">&#10008;</td>
+                                              </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="lastsec">                                                           
+                            <ul class="nav nav-pills">
+                                <li class="active neverDisplay"><a data-toggle="pill" href="#home">Home</a></li>
+                                <li><a data-toggle="pill" href="#dubai"><b>Dubai</b></a></li>
+                                <li><a data-toggle="pill" href="#faq"><b>FAQ</b></a></li>                                    
+                            </ul>
+                            <div class="tab-content">
+                                <div id="home" class="tab-pane fade in active">
+                                    <div class="homeTab contentBorder">
+                                        <div class="tabpad">
+                                            <p>"Whether it's a business trip or holiday, Wakanow ensures that you get to the airport on time wherever you are in the world.</p> 
+                                            <p>We currently provide Airport pick-up services upon arrival at Heathrow Airport, to over 250 postcodes across Central East, West, South and North London.</p> 
+                                            <p>With our fleet consisting of various vehicles from standard cars, Executive cars, and MPV's, we guarantee a service which will transport you to and from the airports with minimum fuss"</p>
+                                        </div>
+                                        <div class="availCars grayBack">
+                                            <h5><b>Available Cars</b></h5>
+                                        </div>
+                                        <div class="imgCars">
+                                            <div class="row">
+                                                <div class="col-sm-2">
+                                                    <img class="img-responsive" src="images/cars/redo-camry.png">
+                                                    <label for="camry">Toyota Corolla,<br>Toyota Camry,<br>Honda Accord,<br>Ford Focus</label>
+                                                </div>
+                                                <div class="col-sm-2">
+                                                    <img class="img-responsive" src="images/cars/mbenz-redo.png">
+                                                    <label for="camry">Mercedes Benz,<br>S-class,<br>Mercedes E-class.</label>
+                                                </div>
+                                                <div class="col-sm-2">
+                                                    <img class="img-responsive" src="images/cars/prado 2016.jpg">
+                                                    <label for="camry">Kia Sportage,<br>Suzuki Grand Vitara,<br>Lexus GX470,<br>Toyota Prado</label>
+                                                </div>
+                                                <div class="col-sm-2">
+                                                    <img class="img-responsive" src="images/cars/corolla-redo.png">
+                                                    <label for="camry">Toyota Sienna,<br>Toyota Verso.</label>
+                                                </div>
+                                                <div class="col-sm-2">
+                                                    <img class="img-responsive" src="images/cars/bviano-redo.png">
+                                                    <label for="camry">Mercedes Benz viano,<br>Mercedes Benz Vito.</label>
+                                                </div>
+                                                <div class="col-sm-2">
+                                                    <img class="img-responsive" src="images/cars/mercedes-g-class--12 amg.jpg">
+                                                    <label for="camry">Range Rover Vogue,<br>G-Wagon,<br>Bently Flying Spur.</label>
+                                                </div>
+                                            </div>
+                                        </div>                                    
+                                    </div>                                
+                                    <div class="note homeTab">
+                                        <p class="colRed"> Note: **actual vehicle type are subject to availability**</p>
+                                        <p>For more information, Email us at <a href="#">transfers@wakanow.com</a>
+                                    </div>
+                                </div>                                
+                                <div id="dubai" class="tab-pane fade">
+                                    <div class="homeTab dubaiBorder">
+                                        <div class="dubaiList">
+                                            <ul class= "contentBorder">
+                                                <li class="active centxt grayBack dubaiListTxt"><h4><b>FREE</b></h4>
+                                                <p> Airport pick-up<br>available on selected<br>airlines</p></li>
+                                                <li><img src="images/qatar.png"></li>
+                                                <li><img src="images/etihad.png"></li>
+                                                <li><img src="images/emirates.png"></li>
+                                                <li><img src="images/ethipian.png"></li>                                    
+                                            </ul>
+                                        </div>
+                                        <div class="pickTxt">
+                                            <p>Airport Pick-up Service for all passengers who have booked their Flight + Hotel on Wakanow, treavelling to and from Dubai and Abu Dhabi - see the schedule below</p>
+                                            <div class="col-sm-3">
+                                            <h5 class="pickHd"><b>For Economy Passengers</b></h5>
+                                            </div>
+                                            <div class="col-sm-4 col-sm-offset-5">
+                                            <p class="pickNote"><b>Transport Type:</b> 34 seate bus</p>
+                                            </div>
+                                        </div>
+                                        <div class="pickTable">
+                                        <table class="table table-bordered table-condensed">
+                                            <thead class="grayBack">
+                                              <tr>
+                                                <th>Airline</th>
+                                                <th>Pick up Point (Arrival) / Drop off Point (Depature)</th>
+                                                <th>Drop off Point (Arrival) / Pick up Point (Depature)</th>
+                                              </tr>
+                                            </thead>
+                                            <tbody>
+                                              <tr>
+                                                <td>Emirates</td>
+                                                <td>Dubai International Airport, Terminal 3</td>
+                                                <td>Wakanow Booked Hotel</td>
+                                              </tr>
+                                              <tr>
+                                                <td>Ethiopian Airlines</td>
+                                                <td>Dubai International Airport, Terminal 1</td>
+                                                <td>Wakanow Booked Hotel</td>
+                                              </tr>
+                                              <tr>
+                                                <td>Etihad Airlines</td>
+                                                <td>Dubai Bus Station</td>
+                                                <td>Wakanow Booked Hotel</td>
+                                              </tr>
+                                              <tr>
+                                                <td>Qatar Airways</td>
+                                                <td>Dubai International Airport, Terminal 1</td>
+                                                <td>Wakanow Booked Hotel</td>
+                                              </tr>
+                                            </tbody>
+                                        </table>
+                                        </div>
+                                        <div class="firstTxt">
+                                        <div class="col-sm-6">
+                                            <h5><b>For Business and First Class Passengers</b></h5>
+                                        </div>
+                                        <div class="col-sm-6 colRight">
+                                            <p>Luxury Pick-up Service and dropoff available for all Wakanow Business and First Class Passengers flying Ethiopian Airlines and Qatar Airways</p>
+                                        </div>
+                                        </div>
+                                        <div class="firstTable">
+                                            <table class="table table-bordered table-condensed">
+                                            <thead class="grayBack">
+                                              <tr>
+                                                <th>Airline</th>
+                                                <th>Pick up Point (Arrival) / Drop off Point (Depature)</th>
+                                                <th>Drop off Point (Arrival) / Pick up Point (Depature)</th>
+                                              </tr>
+                                            </thead>
+                                            <tbody>
+                                              <tr>
+                                                <td>Ethiopian Airlines</td>
+                                                <td>Dubai International Airport, Terminal 1</td>
+                                                <td>Wakanow Booked Hotel</td>
+                                              </tr>
+                                              <tr>
+                                                <td>Qatar Airways</td>
+                                                <td>Dubai International Airport, Terminal 1</td>
+                                                <td>Wakanow Booked Hotel</td>
+                                              </tr>
+                                            </tbody>
+                                        </table>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="faq" class="tab-pane fade">
+                                    <div class="tabpad homeTab contentBorder">                                    
+                                        <div class="panel-group" id="accordion">
+                                            <div class="panel panel-default">
+                                                <div class="panel-heading">
+                                                    <h5 class="panel-title">
+                                                    <a data-toggle="collapse" data-parent="#accordion" href="#cities"><b>This service is curently available in what cities? </b><span class="glyphicon glyphicon-plus-sign pull-right"></span></a>
+                                                    </h5>
+                                                </div>
+                                                <div id="cities" class="panel-collapse collapse">
+                                                    <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="panel panel-default">
+                                                <div class="panel-heading">
+                                                    <h5 class="panel-title">
+                                                    <a data-toggle="collapse" data-parent="#accordion" href="#channels"><b>What channels are available for booking this service? </b><span class="glyphicon glyphicon-plus-sign pull-right"></span></a>
+                                                    </h5>
+                                                </div>
+                                                <div id="channels" class="panel-collapse collapse">
+                                                    <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="panel panel-default">
+                                                <div class="panel-heading">
+                                                    <h5 class="panel-title">
+                                                    <a data-toggle="collapse" data-parent="#accordion" href="#vehicles"><b>What categories of vehicle are available? </b><span class="glyphicon glyphicon-plus-sign pull-right"></span></a>
+                                                    </h5>
+                                                </div>
+                                                <div id="vehicles" class="panel-collapse collapse">
+                                                    <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="preFoot prefootBorder homeTab grayBack">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="mailLabel">
+                                            <h3><b>Get Exclusive Deals via Email</b></h3>
+                                            <p>Sign up for subscriber-only sales and save more!</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="mail">
+                                            <form>
+                                                <div class="col-xs-9">
+                                                <div class="form-group">                                             
+                                                    <input type="email" class="form-control" id="email" placeholder="Enter your email address">
+                                                </div>  
+                                                </div>
+                                                <div class="col-xs-3">
+                                                    <button type="submit" class="btn btn-default">Submit</button>
+                                                </div>                                               
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>                          
+                        </div>
+                    </div> <!--closes col-9-->
+                    <div class="col-md-3">
+                        <div class="adSection homeTab">
+                        <div class="firstad">
+                            <img src="images/add1.png">
+                        </div>
+                        <div class="secondad">
+                            <img src="images/add2.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>            
+        </div>
+    </content>
+    <footer class="homeTab">
+        <div class="footer">
+            
+        </div>
+    </footer>
+    
+</body>

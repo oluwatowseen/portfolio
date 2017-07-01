@@ -1,0 +1,435 @@
+.wakaHead {
+	background-color: #fff;
+	margin-bottom: 0px;
+	border-color: transparent;
+}
+.wakaLogo {
+	margin-top: -13px;
+}
+.wakaLogo img {
+	 width: 15%;    
+}
+.navtxt {
+	font-weight: 600;
+	margin-top: -30px;
+}
+header a {
+	color: black;	
+}
+.act a {
+	background-color: rgba(3, 169, 244, 0.54);
+	color: #555;
+}
+.freeLi {
+	margin-left: -10px;
+	margin-top: -20px;
+}
+
+.in li {
+	padding-top: 5px;
+}
+.topSec {
+	background-image: url(../images/summer-5.jpg);
+	background-color: #fff;
+	min-height: 300px;
+}
+.summerText {	
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+.textImage {
+	width: 300px;
+    margin-bottom: 50px;
+}
+.textImage img  {
+	width: 100%;
+}
+.doubleText {
+	background-color: rgba(0, 0, 0, 0.1);
+    color: white;
+}
+.summerSearch {
+	background-color: #03A9F4;
+	min-height: 50px;
+}
+.searchBox {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.buttonPad {
+	padding-right: 50px;
+	padding-left: 50px;
+}
+.centerAlign {
+	text-align: center;
+}
+.someText {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.cityHead {
+    display: block;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap; 
+}
+
+.cityHead > span {
+    position: relative;
+    display: inline-block;
+}
+
+.cityHead > span:before,
+.cityHead > span:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 9999px;
+    height: 1px;
+    background: #BDBDBD;
+}
+
+.cityHead > span:before {
+    right: 100%;
+    margin-right: 15px;
+}
+
+.cityHead > span:after {
+    left: 100%;
+    margin-left: 15px;
+}
+.cityHead h4 {
+	font-weight: 600;
+}
+.dealPaddingLeft {
+	padding-left: 10px;
+}
+.endText {
+	border-top: 1px solid;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.rate {
+	font-size: 12px;
+	color: gold;
+}
+.ratePad {
+	padding-left: 5px;
+}
+.smallText {
+	font-size: 12px;
+}
+.bookPrice {
+	border: 1px solid #ccc;
+    padding: 20px;
+}
+.priceLabel {
+	border-bottom: 1px solid #ccc;
+    padding-bottom: 30px;
+}
+.priceLabel span {
+	color: #FB8C00;
+    font-size: 30px;
+}
+.bookButton {
+	padding-right: 40px;
+    padding-left: 40px;
+    font-size: 18px;
+}
+.callNumber {
+	padding-top: 20px;
+}
+.callGlyph {
+	color: #03A9F4;
+    padding-right: 10px;
+    font-size: 18px;
+}
+.callSpan {
+	font-size: 19px;
+    color: #03A9F4;
+}
+.callNumber p {
+	padding-top: 5px;
+    /* padding-bottom: 0px; */
+    margin-bottom: 0px;
+}
+.tAndC {
+	margin-top: 15px;
+    color: #03A9F4;
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 15px;
+    cursor: pointer;
+}
+.noBorder {
+	border: none;
+}
+.dealHead {
+    display: block;    
+    overflow: hidden;
+    white-space: nowrap; 
+}
+
+.dealHead > span {
+    position: relative;
+    display: inline-block;
+}
+
+.dealHead > span:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 9999px;
+    height: 1px;
+    background: #BDBDBD;
+}
+.dealHead > span:after {
+    left: 100%;
+    margin-left: 15px;
+}
+.package p {
+	margin: 0 0 5px;
+}
+.addButton button {	    
+    margin-right: 40px;
+    margin-bottom: 5px;
+}
+.flightButton {
+	padding-left: 80px;
+    padding-right: 80px;
+}
+.travelButton {
+	padding-left: 50px;
+    padding-right: 50px;
+}
+.divMarg {
+	margin-top: 30px;
+}
+.PackageDescribe {
+	margin-bottom: 40px;
+}
+.booking {
+	background-color: #eeeeee;
+	min-height: 200px;
+}
+.leftpad {
+	padding-left: 40px;
+}
+.confirmed {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.confirmed h4 {
+	padding-bottom: 20px;
+}
+.bookingDetails {
+	border-top: 1px solid #bdbdbd;
+    border-bottom: 1px solid #bdbdbd;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    margin-right: 50px;
+}
+.bookingDetails h4 {
+	padding-bottom: 10px;
+}
+.rightBorder {
+	border-right: 2px solid black;
+}
+.bookingButton {
+	padding-bottom: 50px;
+    padding-top: 20px; 
+}
+.bookingButton button {
+	padding-right: 60px;
+	padding-left: 60px;
+}
+.modalbodyPad {
+	padding-left: 50px;
+    padding-right: 50px;
+}
+.row1 {
+	margin-bottom: 65px;
+}
+.adultDiv {
+	border: 1px solid #ccc;
+	margin-right: -16px;
+    margin-left: 16px;
+    padding-bottom: 17px;
+    border-radius: 4px;
+}
+.adultDiv h5 {
+	margin-bottom: 5px;
+}
+.footer {
+	min-height: 150px;
+    background-color: #03A9F4;
+    padding: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* horizonzal slide */
+.wrap {
+	position: relative;
+	margin: 5px 0;
+}
+
+/* Frame */
+.frame {
+	min-height: 250px;
+	line-height: inherit;
+	overflow: hidden;
+}
+.frame ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	font-size: 50px;
+}
+.frame ul li {
+	float: left;
+	width: 240px;
+	height: 100%;
+	margin: 0 10px 0 0;
+	padding: 0;
+	background: #fff;
+	color: #333;
+	text-align: left;
+	cursor: pointer;
+	border: 1px solid #ccc;
+}
+.frame ul li.active {	
+	background: transparent;
+}
+.frameImage img {
+	width: 100%;
+}
+.frameImage p {
+	font-size: 13px;
+}
+.frameImage button {
+	padding-left: 91px;
+    padding-right: 91px;
+    border-radius: 0px;
+    margin-top: 0px;
+    margin-bottom: -29px;
+}
+/* Scrollbar */
+.scrollbar {
+	margin: 0 0 1em 0;
+	height: 2px;
+	background: #ccc;
+	line-height: 0;
+}
+.scrollbar .handle {
+	width: 100px;
+	height: 100%;
+	background: #292a33;
+	cursor: pointer;
+}
+.scrollbar .handle .mousearea {
+	position: absolute;
+	top: -9px;
+	left: 0;
+	width: 100%;
+	height: 20px;
+}
+
+/* Pages */
+.pages {
+	list-style: none;
+	margin: 20px 0;
+	padding: 0;
+	text-align: center;
+}
+.pages li {
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	margin: 0 4px;
+	text-indent: -999px;
+	border-radius: 10px;
+	cursor: pointer;
+	overflow: hidden;
+	background: #fff;
+	box-shadow: inset 0 0 0 1px rgba(0,0,0,.2);
+}
+.pages li:hover {
+	background: #aaa;
+}
+.pages li.active {
+	background: #666;
+}
+/* Controls */
+.controls { 
+	position: relative;
+    top: -245px;   
+ }
+ .leftControl {
+ 	margin-left: -14px;
+ }
+ .rightControl {
+ 	margin-right: -14px;
+ }
+.controls button {
+	background-color: transparent;
+	border-radius: 100px;
+	padding: 0px;
+}
+.controls span {
+	font-size: 25px;
+}
+
+
+
+/*thumbnail slide*/
+#carousel-custom {
+    margin: 0px auto;
+    width: 100%;
+}
+#carousel-custom .carousel-indicators {
+    margin: 10px 0 0;
+    overflow: auto;
+    position: static;
+    text-align: center;
+    white-space: nowrap;
+    width: 100%;
+}
+#carousel-custom .carousel-indicators li {
+    background-color: transparent;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    display: inline-block;
+    height: 100px;
+    width: 136px;
+    overflow: hidden;
+}
+#carousel-custom .carousel-indicators li img {
+    display: block;
+    opacity: 0.5;
+    width: 100%;
+    height: 100px;
+}
+#carousel-custom .carousel-indicators li.active img {
+    opacity: 1;
+}
+#carousel-custom .carousel-indicators li:hover img {
+    opacity: 0.75;
+}
+.carouselHeight {
+	height: 314px;
+}

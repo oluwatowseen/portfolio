@@ -1,0 +1,149 @@
+
+body {
+	font-family: 'Bree Serif', serif;
+}
+.topSection {	
+    background-color: white;
+    min-height: 500px;
+    padding-right: 0px;
+    padding-left: 0px;
+    background-image: url(../images/background-1.png);
+}
+.helloDiv {
+	background-color: transparent;
+    min-height: 150px;
+}
+.hello {
+	font-weight: 700;
+    font-size: 40px;
+    padding-top: 120px;
+    color: white;
+}
+.name {
+	font-size: 44px;
+	font-weight: 900;
+	margin-top: 10px;
+}
+.workType {
+	font-size: 18px;
+	padding-top: 15px;
+}
+.workType > ul > li {
+    opacity: .8;
+    display: inline-block;
+    padding-right: 20px;
+}
+.center {
+	text-align: center;
+}
+.workSection img {
+	width: 100%;
+}
+.workSection h2 {
+    margin-bottom: 45px;
+    margin-top: 45px;
+    font-size: 35px;
+    text-align: center;
+    color: #968585;
+    font-weight: 900;
+}
+.workImages {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.work:hover {
+	opacity: .5;
+}
+.work {
+    border: 3px solid #968585;
+    padding: 10px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+}
+.aboutSection {
+	background-color: #968585;
+    min-height: 200px;
+}
+.aboutMe {
+    padding-top: 90px;
+    font-size: 25px;
+    padding-bottom: 90px;
+    color: white;
+}
+.aboutMe p {
+	margin: 0px;	
+}
+.aboutMe span {
+    margin-left: 40px;
+    margin-top: 65px;
+}
+.fa-phone:before , .fa-paper-plane:before {
+	padding-right: 10px;
+}
+.footer {
+	background-color: white;
+    min-height: 300px;
+    padding-right: 0px;
+    padding-left: 0px;
+    background-image: url(../images/background-1.png);
+}
+.contact {
+	color: #fff;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 50px;
+}
+.contact > span {
+	font-size: 12px;
+}
+.contactIcon {
+    font-size: 25px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.contactIcon > a {
+	color: white;
+	opacity: .8;
+	border: 4px solid transparent;
+	
+}
+.contactIcon > a:hover {
+	text-decoration: none;
+	opacity: 1;
+	border: 4px solid white;
+    border-radius: 100px;
+    transition: all .2s linear;
+}
+.contactIcon > a:visited {
+	text-decoration: none;
+}
+.iconMargin {
+	margin-left: 40px;
+    margin-right: 40px;
+    padding: 20px;
+}
+.backUp button {
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.45);
+    color: white;
+    border: 2px solid white;
+    position: fixed;
+    bottom: 20px;
+    right: 60px;
+}
+.backUp button:hover {
+	background-color: rgba(0, 0, 0, 0.45);
+	color: white;
+}
+.backUp i {
+    padding-right: 4px;
+}
+.backUp a {
+	display: none;
+}
+.backUp a:hover {
+	text-decoration: none;
+}

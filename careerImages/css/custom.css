@@ -1,0 +1,233 @@
+.wakaHead {
+	background-color: #fff;
+	margin-bottom: 0px;
+}
+.wakaLogo {
+	margin-top: -13px;
+}
+.wakaLogo img {
+	 width: 15%;    
+}
+.navtxt {
+	font-weight: 600;
+	margin-top: -30px;
+}
+header a {
+	color: black;
+	font-weight: 600;
+}
+.act a {
+	background-color: rgba(3, 169, 244, 0.54);
+	color: #555;
+}
+.freeLi {
+	margin-left: -10px;
+	margin-top: -20px;
+}
+
+.in li {
+	padding-top: 5px;
+}
+.path {
+	max-width: 1400px;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+.topsec img {
+	width: 100%;
+}
+.comejoin {
+	width: 100%;
+	min-height: 50px;
+	background-color: #2196f3;
+	margin-top: -1px;
+}
+.comejoin p {
+	text-align: center;
+	color: #fff;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	font-size: 20px;
+}
+.lifediv {
+	background-color: #fff;
+}
+.lifeat img {
+	width: 70%;
+    padding-top: 20px;
+    padding-left: 33px;
+    margin-left: 30px;
+}
+.lifeatwak {
+	text-align: center;
+    margin-right: 130px;
+    margin-top: 130px;    
+}
+.lifeatwak a {
+	color: black;
+}
+
+.lifeatwak a:visited {
+	color: black;
+	text-decoration: none;
+}
+.lifeatwak a:hover {
+	color: gray;
+	text-decoration: none;
+}
+.ourteam {
+	background-color: rgba(63, 181, 93, 0.13);
+	text-align: center;
+	margin-top: 0px;
+	min-height: 700px;
+}
+.teamHd {
+	padding-top: 35px;
+	padding-bottom: 35px;
+}
+.teamHd h2 {
+	margin-top: 0px;
+	color: #00BCD4;
+}
+.teamHd p {
+	margin-bottom: 0px;
+	font-size: x-large;
+}
+
+.incol {	
+	background-color: #fff;
+	width: 101%;
+	min-height: 445px;	
+	box-shadow: 0px 3px 7px 2px #9E9E9E;
+	margin-bottom: 10px;
+}
+.incol img {
+    margin-left: -6px;
+    margin-top: -8px;
+}
+.txt {
+    padding: 30px 30px 15px 30px;
+}
+.staffwak {
+	min-height: 300px;
+	background-color: #fff;
+}
+.staffwak h3 {
+	color: #2196f3;
+	text-align: center;
+	padding-bottom: 35px;
+    padding-top: 35px;
+}
+.picbubble {
+	margin-top: 5px;
+	margin-bottom: -36px;
+}
+.bubble {
+	position: relative;
+	background: rgba(63, 181, 93, 0.13);	
+    max-width:60%;
+    padding:10px;
+    margin:0 auto;    
+    border-radius:6px;
+    box-shadow: 2px 2px 2px 0px #9E9E9E;
+    top: -105px;
+    left: 40px;
+    
+}
+.bubble:after,
+.bubble:before {
+	right: 100%;
+	top: 30%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+    
+}
+
+.bubble:after {
+	border-color: rgba(63, 181, 93, 0);
+	border-right-color: rgba(63, 181, 93, 0.13);
+	border-width: 15px;
+	margin-top: -15px;
+    
+}
+.bubble:before {
+	border-color: rgba(63, 181, 93, 0);
+	border-right-color: transparent;
+	border-width: 16px;
+	margin-top: -16px;
+    
+}
+.jflock {
+	background: rgba(63, 181, 93, 0.13);
+	min-height: 300px;
+}
+.jflock h3 {
+	color: #2196f3;
+	text-align: center;
+	padding-top: 35px;
+	padding-bottom: 35px;
+}
+.dandi {
+	text-align: center;
+    padding-right: 20px;
+    padding-left: 20px;    
+    margin-bottom: 60px;
+
+}
+.dandi img {
+	padding-bottom: 20px;
+	height: 78px;
+}
+.dandi p {
+	padding-top: 15px;
+}
+.thrd p {
+	margin-top: -15px;
+}
+.applyj h3 {
+	color: #2196f3;
+	text-align: center;
+	padding-top: 35px;
+	padding-bottom: 35px;
+}
+.applyj {
+	min-height: 300px;
+}
+.picont {
+	text-align: center;
+	margin-bottom: 50px;
+}
+.picont p {
+    font-size: 30px;
+    padding-top: 10px;
+    font-weight: 600;
+}
+.picont img {
+	width: 200px;
+    height: 200px;
+}
+.recog {
+	min-height: 300px;
+	border-top: 3px solid rgba(0, 0, 0, 0.24);
+}
+.recog h3 {
+	color: #2196f3;
+	text-align: center;
+	padding-top: 35px;
+	padding-bottom: 35px;
+}
+.awards {
+	border: 1px solid rgba(0, 0, 0, 0.24);	
+    padding-left: 25px;
+    margin-bottom: 20px;
+    padding-top: 15px;
+    padding-right: 10px;
+    box-shadow: 0px 0px 2px 0px #9E9E9E
+
+}
+.awards img {
+	padding-bottom: 10px;	
+}
