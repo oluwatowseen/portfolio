@@ -9,24 +9,43 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/custom.css" >    
 </head>
 <body>
     <div class="topSection">
-        <div class="container helloDiv">
-            <div class="hello center">
-                <img src="images/tel.png">
-                <div class="workType">
-                    <ul>
-                        <li>Web developer</li>
-                        <li>Graphic artist</li>
+        <div class="overlay">
+            <div class="container">
+                <nav class="navigate clearfix">
+                    <ul class="pull-left">
+                        <li class="logo">
+                            <a href="">
+                                <img src="images/tel1.png">
+                            </a>
+                        </li>
                     </ul>
+                    <ul class="pull-right">
+                        <li><a href="#home" class="navLink"> Home</a></li>
+                        <li><a href="#project" class="navLink" id="projects"> Projects</a></li>
+                        <li><a href="#about" class="navLink" id="abouts"> About</a></li>
+                        <li><a href="#contact" class="navLink" id="contacts"> Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="hello center">
+                    <!-- <img src="images/tel1.png"> -->
+                    <h1>TEL DIGITAL</h1>
+                    <div class="caption">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.
+                    </div>
+                    <a href="#project" id="projects" class="learnMore">Learn More</a>
                 </div>
             </div>
         </div>
     </div>
-    <div class="workSection">
+    <div class="workSection" id="project">
         <div class="container">
             <h2>My recent projects</h2>
             <div class="workImages">
@@ -34,21 +53,21 @@
                     <div class="col-md-4">
                         <a href="rental/index.html" target="_blank">
                             <div class="work">
-                                <img src="images/untitled-1.png">
+                                <img src="images/rental1.png">
                             </div>
                         </a>
                     </div>
                     <div class="col-md-4">
                         <a href="rental/index.html" target="_blank">
                             <div class="work">
-                                <img src="images/untitle.png">
+                                <img src="images/rental2.png">
                             </div>
                         </a>
                     </div>
                     <div class="col-md-4">
                         <a href="rental/index.html" target="_blank">
                             <div class="work">
-                                <img src="images/untitled7.png">
+                                <img src="images/rental3.png">
                             </div>
                         </a>
                     </div>
@@ -57,21 +76,21 @@
                     <div class="col-md-4">
                         <a href="package/index.html" target="_blank">
                             <div class="work">
-                                <img src="images/untitled1.png">
+                                <img src="images/package1.png">
                             </div>
                         </a>
                     </div>
                     <div class="col-md-4">
                         <a href="package/index.html" target="_blank">
                             <div class="work">
-                                <img src="images/untitled-5.png">
+                                <img src="images/package2.png">
                             </div>
                         </a>
                     </div>
                     <div class="col-md-4">
                         <a href="careerImages/index.html" target="_blank">
                             <div class="work">
-                                <img src="images/untitled5.png">
+                                <img src="images/career1.png">
                             </div>
                         </a>
                     </div>
@@ -79,17 +98,20 @@
             </div>
         </div>
     </div>
-    <div class="aboutSection">
+    <div class="aboutSection" id="about">
         <div class="container">
             <div class="aboutMe center">
-                Hi, am Tosin Emmanuel Lawal (T.E.L),<br> a Nigerian based <b>Front-End Web developer and Graphic artist</b>.<br>
+                <div class="aboutImage">
+                    <img src="images/about.png">
+                </div>
+                Hi, am Tosin Emmanuel Lawal (T.E.L), C.E.O <b>TEL DIGITAL</b><br> a Nigerian based <b>Web Developer and Graphic Artist</b>.<br>
                 I love and appreciate creativity and beautiful images.<br> If you are looking to build 
                 a simple and responsive website,<br> I'll love to help, LET TEL your story.
                 <p><span class="fa fa-phone"> +2349034693613</span> <span class="fa fa-paper-plane"> oluwatosin.lawl@gmail.com</span></p>
             </div>
         </div>
     </div>
-    <div class="footer">
+    <div class="footer" id="contact">
         <div class="container">
             <div class="contact">
                 Contact Me via.
